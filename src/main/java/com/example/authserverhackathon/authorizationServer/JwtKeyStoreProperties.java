@@ -7,10 +7,10 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.annotation.Validated;
 
-@Component
-@Validated
 @Getter
 @Setter
+@Component
+@Validated
 @ConfigurationProperties("hackathon.jwt.keystore")
 public class JwtKeyStoreProperties {
 
